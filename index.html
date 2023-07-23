@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ======= My CSS Files ======= -->
+    <link href="/DrumPad/index.css" rel="stylesheet" />
+
+    <!-- ======= Bootstrap CSS ======= -->
+	<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+	    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" rel="stylesheet" />
+	
+    <!-- ======= JQUERY ======= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- ======= Page Title ======= -->
+    <title>Drum Pad</title>
+
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0" id="mainbody">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="pb-3 pt-3 m-0 text-center top-banner">
+                    <span class="h2">DRUM PAD</span>
+                </div>
+            </div>
+
+            <!-- <div class="row d-flex">
+                <div class="pt-3 pb-3 m-0 text-center d-flex flex-wrap justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="drum-pad pt-3 pb-3 m-0 text-center d-flex flex-wrap justify-content-center">
+                <div class="col-12">
+                    <button class="drum-button" data-sound="CRASH" data-key="KeyJ">CRASH<br>(J)</button>
+                    <button class="drum-button" data-sound="TAMB1" data-key="KeyI">TAMB1<br>(I)</button>
+                    <button class="drum-button" data-sound="COW" data-key="KeyG">COW<br>(G)</button>
+                    <button class="drum-button" data-sound="FRASH" data-key="KeyT">FRASH<br>(T)</button>
+                </div>
+                <div class="col-12">
+                    <button class="drum-button" data-sound="CASTA" data-key="KeyP">CASTA<br>(P)</button>
+                    <button class="drum-button" data-sound="SNARE2" data-key="KeyE">SNARE2<br>(E)</button>
+                    <button class="drum-button" data-sound="GUICA" data-key="KeyC">GUICA<br>(C)</button>
+                    <button class="drum-button" data-sound="RIDE2" data-key="KeyK">RIDE2<br>(K)</button>
+                </div>
+                <div class="col-12">
+                    <button class="drum-button" data-sound="KICK1" data-key="KeyA">KICK1<br>(A)</button>
+                    <button class="drum-button" data-sound="CLAP" data-key="KeyH">CLAP<br>(H)</button>
+                    <button class="drum-button" data-sound="RIM1" data-key="KeyL">RIM1<br>(L)</button>
+                    <button class="drum-button" data-sound="REVERSE" data-key="KeyW">REVERSE<br>(W)</button>
+                </div>
+                <div class="col-12">
+                    <button class="drum-button" data-sound="SNFX" data-key="KeyQ">SNFX<br>(Q)</button>
+                    <button class="drum-button" data-sound="TOM2" data-key="KeyN">TOM2<br>(N)</button>
+                    <button class="drum-button" data-sound="TOM3" data-key="KeyB">TOM3<br>(B)</button>
+                    <button class="drum-button" data-sound="TOM4" data-key="KeyV">TOM4<br>(V)</button>
+                </div>
+                <div class="col-12">
+                    <button class="drum-button" data-sound="KICK2" data-key="KeyD">KICK2<br>(D)</button>
+                    <button class="drum-button" data-sound="SNARE1" data-key="KeyF">SNARE1<br>(F)</button>
+                    <button class="drum-button" data-sound="SHAKER" data-key="KeyN">SHAKER<br>(N)</button>
+                    <button class="drum-button" data-sound="HAT" data-key="KeyU">HAT<br>(U)</button>
+                </div>
+                <div class="col-12">
+                    <button class="drum-button" data-sound="BLOCK" data-key="KeyM">BLOCK<br>(M)</button>
+                    <button class="drum-button" data-sound="SNAP" data-key="KeyO">SNAP<br>(O)</button>
+                    <button class="drum-button" data-sound="CLAP2" data-key="KeyR">CLAP2<br>(R)</button>
+                    <button class="drum-button" data-sound="RIDE" data-key="KeyS">RIDE<br>(S)</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+  <script src="/DrumPad/index.js"></script>
+
+</body>
+</html>
