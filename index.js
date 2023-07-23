@@ -1,6 +1,6 @@
     // Function to play the sound corresponding to the button clicked
     function playSound(sound) {
-        const audio = new Audio(`assets/${sound}.WAV`);
+        const audio = new Audio(`assets/${sound}.wav`);
         audio.play();
     }
   
